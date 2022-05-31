@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ranking">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="166dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:gravity="center"
+        android:text="Ranking"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="305dp"
+
+        android:layout_height="146dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/contenedor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="64dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="3335mp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mp"
+            android:layout_width="64dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="TOP #3 Fazt"
+            android:textColor="#44F1BD"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            app:layout_constraintVertical_bias="0.076" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="164dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="44dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="118pm"
+            android:textColor="@color/letra1"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/circulo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="305dp"
+
+        android:layout_height="146dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/contenedor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/winrate"
+            android:layout_width="171dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="36dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="TOP #2 Mi papi Dalto"
+            android:textColor="#FD757F"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:layout_constraintVertical_bias="0.413" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="64dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="3500mp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="164dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="44dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="145pm"
+            android:textColor="@color/letra1"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/circulorojo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="305dp"
+
+        android:layout_height="146dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/contenedor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <TextView
+            android:id="@+id/ppm"
+            android:layout_width="180dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="36dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="TOP #1 Fernando Herrera"
+            android:textColor="#717EDF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mp" />
+
+        <TextView
+            android:id="@+id/mp"
+            android:layout_width="125dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="4040mp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="182dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="44dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="154pm"
+            android:textColor="@color/letra1"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/circuloazul"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
